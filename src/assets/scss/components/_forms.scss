@@ -1,0 +1,11 @@
+.input-group {
+  @apply w-full flex items-center bg-slate-500/25 text-slate-50 rounded-2xl gap-4 py-3 px-4;
+
+  svg {
+    @apply w-4 h-4;
+  }
+
+  input {
+    @apply w-full bg-transparent focus:border-none focus:ring-0 focus:outline-0;
+  }
+}

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  @apply w-full h-screen grid grid-cols-1 lg:place-items-center bg-slate-900 lg:bg-slate-300 text-slate-500 text-xs font-notosans lg:p-10;
+}
+
+::-webkit-scrollbar {
+  @apply w-1;
+
+  &-thumb {
+    @apply bg-slate-900/50 rounded-full hover:bg-slate-900/75;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-semibold leading-tight mt-0 mb-2;
+}
+
+h1 {
+  @apply text-5xl;
+}
+h2 {
+  @apply text-4xl;
+}
+h3 {
+  @apply text-3xl;
+}
+h4 {
+  @apply text-2xl;
+}
+h5 {
+  @apply text-xl;
+}
+h6 {
+  @apply text-base;
+}
+
+#app {
+  @apply w-full h-fit overflow-auto relative lg:grid grid-cols-1 gap-2.5 lg:bg-slate-900 shadow-2xl p-2.5 lg:rounded-xl xl:max-w-5xl 2xl:max-w-7xl lg:h-[75vh] 2xl:h-[768px] lg:grid-cols-2;
+}

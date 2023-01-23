@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './assets/scss/abstracts/config';
+@import './assets/scss/abstracts/utilities';
+
+@import './assets/scss/components/forms';

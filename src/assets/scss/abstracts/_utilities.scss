@@ -1,0 +1,15 @@
+.content {
+
+  &-left,
+  &-right {
+    @apply relative max-h-fit box-content;
+  }
+
+  &-left {
+    @apply lg:max-w-fit flex flex-col justify-start lg:justify-center lg:mx-auto;
+  }
+
+  &-right {
+    @apply lg:overflow-y-auto bg-slate-50 rounded-xl p-5 lg:p-12;
+  }
+}
